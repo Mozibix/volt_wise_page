@@ -1,0 +1,82 @@
+/* CONTAINER */
+.main_container {
+  padding: 0.5rem;
+}
+@media screen and (min-width: 576px) {
+  .main_container {
+    padding: 1.5rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main_container {
+    padding: 1rem 4rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .main_container {
+    padding: 1rem 6rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .sub_container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #131217;
+  color: #fff;
+}
+
+/* MAIN SECTION */
+.main {
+  overflow: hidden;
+  width: 100%;
+  height: 100dvh;
+}
+.main_inner {
+  width: 100%;
+  aspect-ratio: 1/1;
+  text-align: center;
+}
+.main_inner .main_top .logo_img {
+  margin: 1rem;
+}
+.main_inner .main_top .logo_img > img {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.main_inner .main_top p {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.main_inner .main_top span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  gap: 0.5rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+.main_inner .main_bottom {
+  position: relative;
+}
+.main_inner .main_bottom > img {
+  width: 100%;
+}
+.main_inner .main_bottom .box {
+  position: absolute;
+}/*# sourceMappingURL=custom.css.map */
